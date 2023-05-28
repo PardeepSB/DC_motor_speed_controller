@@ -33,9 +33,9 @@ After creating a connection between the DIP switch, 8051 MCU, and DC Fan, the PW
 - 3x SN74LS47 IC (4-line to 7-segment)
 
 ## Result
-
-As demonstrated in this video, the DC motor fan speed controller is a success and works at various PWM signal values.
-
+<p align="center">
+  As demonstrated in this video, the DC motor fan speed controller is a success and works at various PWM signal values.
+<p/>
 
 
 https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/44662d17-ee7d-4877-8f1e-7a619a3f4c4f

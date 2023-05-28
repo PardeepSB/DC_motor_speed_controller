@@ -10,7 +10,7 @@ DC fans are used in personal computers to cool components such as the CPU and GP
 The general architecture used to create the physical circuit can be seen in the figure below. This figure represents how the 8051 microcontroller is connected to the dip switch input, PWM motor control, motor encoder, and 7-segment RPM display.
 
 <div style="text-align:center">
-  <img src=![DC motor speed control architecture](https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/39af702b-bbaf-40e6-829e-7a961b15635b)/>
+  <img src=https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/39af702b-bbaf-40e6-829e-7a961b15635b/>
 <div/>
 
 

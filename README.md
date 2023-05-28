@@ -34,6 +34,10 @@ After creating a connection between the DIP switch, 8051 MCU, and DC Fan, the PW
 ## Result
 
 As demonstrated in this video, the DC motor fan speed controller is a success and works at various PWM signal values.
-https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/2ed40b72-145c-4a8a-943d-0756aa68cbc3
+https://user-images.githubusercontent.com/73859429/163284797-69b0d060-c132-475e-b125-c04908e3a534.mp4
+
+https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/bcf8e1af-58f2-4e49-b52b-16c397ce9197
+
+
 
 

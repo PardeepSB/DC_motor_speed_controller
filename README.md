@@ -10,18 +10,18 @@ DC fans are used in personal computers to cool components such as the CPU and GP
 The general architecture used to create the physical circuit can be seen in the figure below. This figure represents how the 8051 microcontroller is connected to the dip switch input, PWM motor control, motor encoder, and 7-segment RPM display.
 
 <div style="text-align:center">
-  ![DC motor speed control architecture](https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/39af702b-bbaf-40e6-829e-7a961b15635b)
+  <img src=![DC motor speed control architecture](https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/39af702b-bbaf-40e6-829e-7a961b15635b)/>
 <div/>
 
 
 
 The PWM output from the microcontroller based on the DIP switch inputs using the microcontroller's GPIO pins can give a total of 8 different duty cycle values.
 <div style="text-align:center">
-![DIP config](https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/fe4f076f-daee-4a24-aa03-396531a66b75)
+  ![DIP config](https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/fe4f076f-daee-4a24-aa03-396531a66b75)
 <div/>
 After creating a connection between the DIP switch, 8051 MCU, and DC Fan, the PWM signal can be generated using Timer 0 of the Microcontroller. Within a programmed function, the PWM can be calculated in reference to a max PWM frequency, 255. The generated PWM is amplified with a MOSFET for reasons such as voltage level matching and power efficiency, which can be seen in the figrue below. Based on the state of the DIP switch, the selected percentage is applied to the max PWM and the duty cycle is then output to control the DC motor power, ultimately allowing speed control. 
 <div style="text-align:center">
-![mosfet](https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/b8d42af1-0c94-4015-8eb4-0095897e8118)
+  ![mosfet](https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/b8d42af1-0c94-4015-8eb4-0095897e8118)
 <div/>
 ## List of Materials: 
 - AT89S8253 40-pin microcontroller
@@ -36,7 +36,7 @@ After creating a connection between the DIP switch, 8051 MCU, and DC Fan, the PW
 
 As demonstrated in this video, the DC motor fan speed controller is a success and works at various PWM signal values.
 <div style="text-align:center">
-https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/bcf8e1af-58f2-4e49-b52b-16c397ce9197
+  https://github.com/PardeepSB/DC_motor_speed_controller/assets/73859429/bcf8e1af-58f2-4e49-b52b-16c397ce9197
 <div/>
 
 

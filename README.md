@@ -1,4 +1,4 @@
-# DC_motor_speed_controller
+# Speed Controlled DC Motor Fan
 
 ## About
 Digital Logic and Microcontrollers explores the use of binary arithmetic to understand how common digital logic elements work. The understanding of a foundational element such as a logic gate is used to develop more complex elements such as MUXs, decoders, and flip flops. Combinational circuits and be constructed using basic elements to design a circuit to achieve the desired objective. There are many combinational circuits available on the market that perform a desired operation. An understanding of digital logic is key to understanding the internal function of a microcontroller. In this project, the architecture of a 8051 MCU is explored while understanding how to program embedded systems in C. 
